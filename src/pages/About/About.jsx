@@ -30,3 +30,40 @@ const About = () => {
 };
 
 export default About;
+
+// import React from "react";
+
+// const About = () => {
+//   return (
+//     <section
+//       id="About"
+//       className="mx-auto mt-4 flex w-full max-w-5xl flex-col items-center gap-4 overflow-hidden rounded-xl bg-white text-black shadow-2xl sm:flex-row sm:gap-6 sm:p-4"
+//     >
+//       {/* Profile Image */}
+//       <div className="w-full shrink-0 p-4 sm:w-2/5 sm:p-2">
+//         <img
+//           src="/profile.jpg"
+//           alt="Profile"
+//           className="mx-auto h-64 w-full max-w-sm rounded-lg object-cover shadow-xl sm:h-80 sm:max-w-none"
+//         />
+//       </div>
+
+//       {/* About Content */}
+//       <div className="w-full min-w-0 p-4 sm:flex-1 sm:p-3">
+//         <h2 className="mb-4 text-2xl font-bold">About Me</h2>
+
+//         <p className="break-words text-justify text-sm leading-7 sm:text-base">
+//           I am a Computer Science and Engineering student passionate about
+//           software development and modern technologies. I work with the MERN
+//           stack to build responsive web applications and practical projects.
+//           I am also interested in Artificial Intelligence and Machine Learning
+//           and continuously work on improving my technical skills. My goal is
+//           to create useful, reliable solutions while growing as a software
+//           developer and AI engineer.
+//         </p>
+//       </div>
+//     </section>
+//   );
+// };
+
+// export default About;
